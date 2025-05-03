@@ -1,6 +1,7 @@
-# Network Privacy Tool
+# M474.ts
 
 A TypeScript port of the M474 privacy tool to change MAC addresses and renew IP addresses.
+Check the original M474 for python [here](https://github.com/spyboy-productions/M474)
 
 ## Features
 
@@ -64,6 +65,10 @@ sudo npm start -- --interface wlan0
 - For MAC address functionality:
   - On Windows: getmac utility
   - On Unix-like systems: macchanger utility
+
+## Why Typescript?
+
+I'll be using this ideia for another project that'll be building in Node later.
 
 ## Disclaimer
 

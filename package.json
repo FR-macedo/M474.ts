@@ -1,5 +1,5 @@
 {
-    "name": "network-privacy-tool",
+    "name": "m474ts",
     "version": "1.0.0",
     "description": "A network privacy tool to change MAC address and renew IP",
     "main": "dist/index.js",
