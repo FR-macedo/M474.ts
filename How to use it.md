@@ -100,40 +100,10 @@ sudo npm start -- --interface wlan0
 The tool uses Node.js `child_process.exec()` to run system commands, which requires elevated privileges for network operations.
 
 ### Error Handling
-Each network operation has error handling to gracefully handle failures in different environments.
+Each network operation has error handling, but it need to get better (contributions welome).
 
 ### MAC Address Generation
 The tool attempts to use vendor lists if available, falling back to fully random MAC generation if needed.
 
 ### Configuration
 The Commander.js library provides a clean way to handle command-line arguments and options.
-
-## Next Steps for Enhancement
-
-1. **Add network interface detection**
-   - Auto-detect available interfaces instead of hard-coding "eth0"
-
-2. **Improve error handling**
-   - More specific error messages for different scenarios
-   - Guided troubleshooting for common issues
-
-3. **Add configuration file**
-   - Allow users to save preferred settings
-
-4. **Add logging**
-   - Keep history of MAC and IP changes
-
-5. **Add 100% test coverage**
-
-5. **Make it into a component for other applications**
-
-
-### For future updates:
-
-1. **Add GUI for single use**
-   - Create an Electron-based GUI for easier use
-
-2. **Enhanced privacy features**
-   - Add VPN integration
-   - Add DNS leak protection
-   - Add browser fingerprint protection
